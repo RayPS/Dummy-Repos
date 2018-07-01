@@ -1,0 +1,1 @@
+A Macau gambling game results simulator

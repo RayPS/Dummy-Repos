@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset='UTF-8')
+        //- meta(name="viewport" content="width=device-width height=device-height user-scalable=no initial-scale=1")
+        //- link(rel='shortcut icon' href='favicon.png' type='image/x-icon') 
+        link(href='css/style.css' type='text/css' rel='stylesheet')
+    body
+        h1#title EOS/USDT (60 Minutes)
+        h1#price $00.00
+        canvas#myChart(width="16", height="7")
+        #bar
+            .button.active 1 Hour
+            .button 1 Day
+            .button 1 Week
+            .button 1 Month
+
+        script(type="application/javascript", src="lib/jquery-3.3.1.js")
+        script(type="application/javascript", src="lib/Chart.bundle.min.js")
+        script(type="application/javascript", src="js/script.js")
